@@ -1,5 +1,5 @@
 const express = require('express');
-const mysql = require('mysql');
+const mysql = require('mysql2');  // ✅ use mysql2 instead of mysql
 const cors = require('cors');
 const dotenv = require('dotenv');
 dotenv.config();
