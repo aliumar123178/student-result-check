@@ -13,7 +13,7 @@ app.use(express.json());
 
 // MySQL connection
 const db = mysql.createConnection({
-  host: process.env.DB_HOST ||'mysql.railway.internal',
+  host: process.env.DB_HOST ||'maglev.proxy.rlwy.net',
   user: process.env.DB_USER || 'root',
   password: process.env.DB_PASSWORD || 'YtyzuxzYXdcDDwnsoVqKAZMsuOjOoIqS',
   database: process.env.DB_NAME || 'railway'
